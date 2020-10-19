@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-size: 25px;
+  width: 50%;
+  border: none;
+  border-bottom: 5px solid orange;
+  transition: border-color 1s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  border-color: navy;
+}
+
+span {
+  font-size: 25px;
+  margin-top: 25px;
+}
