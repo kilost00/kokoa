@@ -49,6 +49,7 @@ body {
     }
 }
 
+
 .row:first-child {
     animation: circle 1s linear infinite;
 }
